@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration</title>
+</head>
+
+<body>
+    <div id="form">
+        <form align="center">
+            <table align="center">
+                <tr>
+                    <td>College name:</td>
+                    <td><input type="radio" name="collegeName" value="VNR" checked>VNR VJIET
+                        <input type="radio" name="collegeName" value="Other"> Other</td>
+                </tr>
+                <tr>
+                    <td>College Address:</td>
+                    <td><input type="text" placeholder="address"></td>
+                </tr>
+                <tr>
+                    <td>No. of members:</td>
+                    <td><select id="Members">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select></td>
+                </tr>
+                <tr id="TeamMembers">
+                </tr>
+            </table>
+        </form>
+    </div>
+    <script src="register.js"></script>
+</body>
+
+</html>
