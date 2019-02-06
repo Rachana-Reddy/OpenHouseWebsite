@@ -1,0 +1,325 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+  margin: 0;
+  
+  min-height: 100%;
+    background: #eee;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+    color: #ededed;
+    font-size: 18px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #0b0238;
+    color: #fff;
+    border-color: #080808;
+    border: 1px solid transparent;
+    width: 100%;
+}
+.aboutus {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header img {
+    width: 15%;
+    max-width: 150px;
+    height: 100%;
+}
+
+.inner-header {
+    width: 100%;
+    margin: auto;
+    object-fit: contain;
+
+}
+
+#navbarNavAltMarkup div {
+    margin: auto;
+}
+
+#navbarNavAltMarkup div a {
+    margin: 0 15px;
+}
+
+.container .header {
+    height: 100px;
+    border: 2px;
+    width: 900px;
+
+}
+
+.header-text {
+    font-family: sans-serif;
+    font-size: 3vw;
+    padding: 0 20px;
+}
+.header-text p,
+.header-text h3 {
+    margin: 40px 0;
+}
+.header-text p {
+    font-size: 90%;
+}
+.header-text h3 {
+    font-size: 3.5vw;
+    text-decoration: underline;
+    line-height: 2
+}
+.header-link {
+    float: right;
+    font-size: 14px;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.content {
+    min-height: 500px;
+}
+
+.banner-image {
+
+    max-height: 600px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #000000;
+    background-size:cover;
+    margin: 0 auto;
+}
+
+.banner-image img {
+max-height: 600px;
+}
+
+.inner-banner-image {
+    padding-top: 12%;
+    width: 100%;
+    margin: auto;
+}
+
+.image {
+    height: auto;
+    width: 25%;
+    padding: 4px;
+}
+
+.banner_content {}
+
+.item {
+    height: 600px;
+}
+
+.item img {
+    object-fit: contain;
+}
+
+.button {
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+    padding: 10px 16px;
+    font-size: 18px;
+    border-radius: 6px;
+    max-width: 100px;
+
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.container1 {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.items {
+    width: 30%;
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    float: left;
+    margin-left: 1%;
+}
+
+.items1 {
+    width: 10%;
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    float: left;
+    margin-left: 1%;
+}
+
+.thumbnail {
+    display: block;
+    max-width: 100%;
+    border-radius: 50%;
+    height: auto;
+}
+
+.caption {
+    color: #000;
+    padding: 0px 10px 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer {
+    background-color: #0b0238;
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+}
+
+footer p {
+    font-size: 2vw;
+    margin: 2px;
+}
+@media screen and (min-width: 1200px) {
+  footer p {
+     font-size: 20px;
+  }
+}
+#Foot hr {
+    margin: 0 4px;
+    color: #FFF;
+background-color: #fff;
+    height: 6vw;
+    width: 1px;
+}
+#Foot {
+    display: flex;
+    justify-content: space-around
+}
+#Foot a {
+    font-size: 2vw;
+}
+@media screen and (min-width: 1200px) {
+  #Foot a {
+     font-size: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .aboutus p {
+     font-size: 30px;
+  }
+}
+#Foot a:hover {
+    text-decoration: none;
+}
+h3 {
+    text-align: center;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+h1 {
+    color: #396;
+    font-weight: 100;
+    font-size: 40px;
+    margin: 40px 0px 20px;
+}
+
+
+
+.smalltext {
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+.container {
+    color: #333;
+    text-align: center;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+li span {
+    display: block;
+    font-size: 4.5rem;
+}
+
+.button.disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+}
+
+.buttons {
+    padding: 50px 0;
+}
+
+.buttons a {
+    background: green;
+}
+
+#regHead {
+    margin-top: 50px;
+}
+
+pre {
+    color: #fff;
+}
+
+.buttons a:hover {
+    color: darkblue;
+    text-decoration: none;
+}
